@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "system": "Oil-Injected Rotary Screw Air Compressor",
+    "version": "1.0.0",
+    "author": "Mountain Home Air Compressor",
+    "description": "Original troubleshooting decision logic for industrial air compressors",
+    "safety_notice": "Always lock out power and relieve pressure before inspection."
+  },
+
+  "problems": [
+    {
+      "id": "will_not_start",
+      "title": "Compressor Will Not Start",
+      "steps": [
+        {
+          "id": "power_check",
+          "question": "Is the control panel powered on?",
+          "yes": "alarm_check",
+          "no": {
+            "result": "Incoming power issue",
+            "action": "Inspect disconnect, fuses, and control transformer."
+          }
+        },
+        {
+          "id": "alarm_check",
+          "question": "Is there an active fault or alarm preventing startup?",
+          "yes": {
+            "result": "Active fault detected",
+            "action": "Resolve alarm condition before restarting."
+          },
+          "no": "start_response"
+        },
+        {
+          "id": "start_response",
+          "question": "Does the motor attempt to start?",
+          "yes": "motor_rotation",
+          "no": {
+            "result": "Control circuit issue",
+            "action": "Inspect start circuit and control wiring."
+          }
+        },
+        {
+          "id": "motor_rotation",
+          "question": "Does the motor rotate?",
+          "yes": {
+            "result": "Electrical issue likely",
+            "action": "Further electrical diagnosis required."
+          },
+          "no": {
+            "result": "Mechanical resistance detected",
+            "action": "Possible seized compressor or motor. Stop and call service."
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "high_temperature",
+      "title": "Compressor Running Too Hot",
+      "steps": [
+        {
+          "id": "oil_level",
+          "question": "Is the oil level within the normal operating range?",
+          "yes": "cooler_cleanliness",
+          "no": {
+            "result": "Low oil level",
+            "action": "Add manufacturer-approved compressor oil."
+          }
+        },
+        {
+          "id": "cooler_cleanliness",
+          "question": "Are oil cooler fins clean and unobstructed?",
+          "yes": "fan_operation",
+          "no": {
+            "result": "Restricted cooling",
+            "action": "Clean oil cooler and airflow path."
+          }
+        },
+        {
+          "id": "fan_operation",
+          "question": "Is the cooling fan operating correctly?",
+          "yes": {
+            "result": "Possible internal oil flow issue",
+            "action": "Thermostatic valve or internal restriction suspected."
+          },
+          "no": {
+            "result": "Cooling fan failure",
+            "action": "Repair or replace cooling fan."
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "oil_in_air",
+      "title": "Oil Present in Compressed Air",
+      "steps": [
+        {
+          "id": "separator_life",
+          "question": "Has the oil separator exceeded its service interval?",
+          "yes": {
+            "result": "Worn oil separator",
+            "action": "Replace oil separator element."
+          },
+          "no": "scavenge_check"
+        },
+        {
+          "id": "scavenge_check",
+          "question": "Is oil returning through the scavenge line?",
+          "yes": "oil_type",
+          "no": {
+            "result": "Blocked scavenge system",
+            "action": "Inspect and clean scavenge line and orifice."
+          }
+        },
+        {
+          "id": "oil_type",
+          "question": "Is the correct oil used and filled to proper level?",
+          "yes": {
+            "result": "Internal separation fault",
+            "action": "Further internal inspection required."
+          },
+          "no": {
+            "result": "Incorrect oil condition",
+            "action": "Correct oil type or level."
+          }
+        }
+      ]
+    }
+  ],
+
+  "service_contact": {
+    "company": "Mountain Home Air Compressor",
+    "phone": "870-321-4095",
+    "email": "DeltaT@Contractor.net",
+    "instruction": "If the issue persists, contact a qualified technician."
+  }
+}
