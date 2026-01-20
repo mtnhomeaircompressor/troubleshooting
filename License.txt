@@ -1,0 +1,74 @@
+**Mountain Home Air Compressor
+Software License Agreement**
+
+Effective Date: January 19, 2026
+
+This Software License Agreement (“Agreement”) is a legal agreement between Mountain Home Air Compressor (“Licensor”) and the individual or entity using this software (“Licensee”).
+
+By installing, accessing, or using this software, Licensee agrees to be bound by the terms of this Agreement.
+
+1. License Grant
+Licensor grants Licensee a non‑exclusive, non‑transferable, revocable license to use the Mountain Home Air Compressor Troubleshooting Software (“Software”) solely for:
+
+Diagnostic assistance
+Training purposes
+Internal operational support
+This license does not transfer ownership of the Software.
+
+2. Restrictions
+Licensee may not:
+
+Copy, modify, reverse engineer, decompile, or disassemble the Software
+Distribute, sublicense, lease, sell, or rent the Software
+Remove or alter proprietary notices
+Use the Software as part of a competing product or service
+Unauthorized use immediately terminates this license.
+
+3. Intended Use & Disclaimer
+The Software provides guidance only and does not replace professional judgment.
+
+Diagnostics are informational, not guarantees
+Final responsibility for repairs, safety, and compliance remains with the user
+Licensor is not responsible for damage caused by improper use or interpretation
+4. Service Technician Mode
+Certain features are restricted to authorized service technicians.
+
+Access may be protected by PIN or credentials
+Licensee is responsible for preventing unauthorized access
+Misuse of advanced features voids warranty and license protections
+5. Ownership
+The Software, including all code, logic, workflows, and documentation, is the exclusive property of Licensor.
+
+No rights are granted except those explicitly stated.
+
+6. No Warranty
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, INCLUDING BUT NOT LIMITED TO:
+
+MERCHANTABILITY
+FITNESS FOR A PARTICULAR PURPOSE
+ACCURACY OR COMPLETENESS
+7. Limitation of Liability
+To the maximum extent permitted by law:
+
+Licensor shall not be liable for any indirect, incidental, consequential, or special damages, including but not limited to:
+
+Equipment damage
+Downtime
+Lost profits
+Personal injury
+Total liability shall not exceed the amount paid for the Software, if any.
+
+8. Termination
+This Agreement terminates automatically if Licensee violates any term.
+
+Upon termination, Licensee must:
+
+Cease all use of the Software
+Delete all copies in their possession
+9. Governing Law
+This Agreement shall be governed by the laws of the United States, without regard to conflict‑of‑law principles.
+
+10. Entire Agreement
+This Agreement constitutes the entire agreement between the parties and supersedes all prior discussions or understandings.
+
+© 2026 Mountain Home Air Compressor. All rights reserved.
