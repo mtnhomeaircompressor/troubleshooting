@@ -1,0 +1,48 @@
+Non‑Solicitation Clause
+1. Purpose
+This Non‑Solicitation Clause protects the business relationships, confidential information, and goodwill of Mountain Home Air Compressor (“Licensor”) without restricting lawful employment or competition.
+
+2. Restricted Solicitation
+During the term of this Agreement and for two (2) years following termination or expiration, Licensee shall not, directly or indirectly:
+
+a. Customers & End Users
+Solicit, divert, or attempt to solicit any customer, end user, or prospective customer of Licensor
+Use information gained through the Software to target or service such customers with competing tools or services
+b. Distributors & Partners
+Solicit or induce any distributor, reseller, contractor, or business partner of Licensor to reduce or terminate their relationship with Licensor
+c. Employees & Contractors
+Solicit, recruit, or hire any employee, contractor, or service technician of Licensor
+3. Use of Software Knowledge
+Licensee may not use:
+
+Diagnostic logic
+Workflow structure
+Troubleshooting methodology
+Proprietary system design
+obtained through the Software to solicit or service Licensor’s customers or partners outside the scope of this Agreement.
+
+4. Permitted Activities
+This clause does not prohibit Licensee from:
+
+Working in the compressed air or industrial equipment industry
+Providing mechanical or electrical service work
+Developing unrelated software or tools
+Competing generally, provided no solicitation occurs
+5. Reasonableness & Severability
+The parties agree that:
+
+The scope and duration are reasonable
+Any unenforceable portion shall be modified to the maximum extent permitted by law
+The remainder shall remain fully enforceable
+6. Remedies
+Licensee acknowledges that a violation would cause irreparable harm.
+
+Licensor is entitled to:
+
+Injunctive relief
+Recovery of reasonable attorney’s fees and costs
+7. Survival
+This Non‑Solicitation Clause survives termination of the Software License Agreement.
+
+Acknowledgment
+By using the Software, Licensee acknowledges and agrees to this Non‑Solicitation Clause.
